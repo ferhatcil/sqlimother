@@ -41,6 +41,50 @@ git clone https://github.com/ferhatcil/sqlimother.git
 cd sqlimother
 python3 start.py
 ```
+
+### Telegram Komutları
+<table>
+<thead>
+<tr>
+<th>Komut</th>
+<th>Açıklama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>|wait|x|second|</td>
+<td>Botu x saniye bekletir</td>
+</tr>
+<tr>
+<td>|wait|x|minute|</td>
+<td>Botu x dakika bekletir</td>
+</tr>
+<tr>
+<td>|wait|x|hour|</td>
+<td>Botu x saat bekletir</td>
+</tr>
+<tr>
+<td>|sqli|proje adi|url adresi|</td>
+<td>Bot url adresine sqlmap taraması başlatır</td>
+</tr>
+</tbody></table>
+
+### Örnek
+<code> |sqli|acunetix taraması|http://testphp.vulnweb.com/artists.php?artist=1| </code> </br>
+<code> |wait|25|second| </code>
+
+### Önizleme
+<p align="center">
+<img src="https://1.bp.blogspot.com/-wYeHvDU-fzU/YBaJY2WUt6I/AAAAAAAAA8c/wa6IfCW7A9k2hnSd8Vyx7ZozlOXJUgzSwCLcBGAsYHQ/w400-h64/command-1.png"/>
+</p>
+<p align="center">
+<img src="https://1.bp.blogspot.com/-QGSlcePuI78/YBaJ2lCVO6I/AAAAAAAAA8o/i3ZcItiehy4VCGDHItPu2s5NiHrhqOBNwCLcBGAsYHQ/s320/c-b.jpeg"/>
+</p>
+<p align="center">
+<img src="https://1.bp.blogspot.com/-IQQWfxrs7m8/YBaJ8RTcKAI/AAAAAAAAA8s/uh6f0XYpv7Anu6BJoU_C1NXe20XeCsdGACLcBGAsYHQ/s320/command-2.png"/>
+<img src="https://1.bp.blogspot.com/-43nMNCOroio/YBaJ_zWOziI/AAAAAAAAA8w/rj-5LAwVe_Ek-hxg5UEYFsoklwNy8oZzwCLcBGAsYHQ/s320/command-3.png"/>
+</p>
+
 ### Video
 [Youtube](https://youtu.be/sPq6AA5sZQQ)
 
